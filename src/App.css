@@ -1,0 +1,95 @@
+body{
+  background: #f7f7f7;
+  color: #272727;
+  font-size: 1rem;
+  line-height: 1.4em;
+  margin: 0px;
+      font-family:'Roboto Serif', sans-serif;
+}
+
+/* Card Style ------------------------- */
+
+.cartita {
+  margin-right: 2rem;
+  margin-left: 2rem;
+  border: 0px;
+ 
+}
+
+.cartatitulo {
+  font-family:'Roboto Serif', sans-serif;
+  font-size: 10px;
+  color: #272727;
+}
+
+.cartatexto {
+  padding-top: 0.2rem;
+  margin: 0px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
+  color: #5d5d5d;
+  width: 250px;
+
+}
+
+.contenedores {
+  padding-top: 2rem;
+}
+
+.top{
+  width: 20px;
+}
+
+/* NavBar Style */
+
+.espacio{
+  display: flex;
+  justify-content: end;
+}
+
+.navbar-default {
+  font-family:'Roboto Serif', sans-serif;
+  color: #ffffff;
+  height: 90px;
+}
+
+/* Carousel Style */
+
+.textazo {
+  size: 300px;
+}
+
+h1 {
+  font-family:'Roboto Serif', sans-serif;
+}
+
+p{
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 450px;
+  text-align: left;
+  font-size: 16px;
+}
+
+.slider {
+  align-items: center;
+}
+
+.carruseta {
+  display: flex;
+  align-items: center;
+}
+
+.carouselContainer{
+  justify-content: space-between;
+}
+
+.espaciado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 360px;
+}
+
+.encabezado{
+  padding: 1rem 3rem;
+}

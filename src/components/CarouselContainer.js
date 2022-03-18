@@ -32,8 +32,8 @@ return (
     />
     <Carousel.Caption>
       <div className='espaciado'>
-      <h1><b>Minería</b></h1>
-      <p>Construimos una <b>granja de minería participativa</b> con rendimientos altos que son controlados por los usuarios a través de nuestro blotter histórico en donde se encuentra el detalle de todo el proceso productivo.</p>
+      <h1 className='textoMineria'><b>Minería</b></h1>
+      <p className='textoMineria'>Construimos una <b>granja de minería participativa</b> con rendimientos altos que son controlados por los usuarios a través de nuestro blotter histórico en donde se encuentra el detalle de todo el proceso productivo.</p>
       </div>
     </Carousel.Caption>
     </div>

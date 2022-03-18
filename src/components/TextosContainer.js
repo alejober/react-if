@@ -1,12 +1,15 @@
 import React from 'react'
 import { Card, CardGroup } from 'react-bootstrap';
 import cardimage1 from './../img/card-img-1.png';
+import cardimage2 from './../img/card-img-2.png';
+import cardimage3 from './../img/card-img-3.png';
+import cardimage4 from './../img/card-img-4.png';
 
 const TextosContainer = () => {
   return (
     <CardGroup className='contenedores'>
     <Card border='transparent' className='cartita' >
-      <Card.Img variant="top" src='/'/>
+      <Card.Img className='top' src={cardimage1}/>
       <Card.Body>
         <Card.Title className='cartatitulo'><b>Nuestro Equipo</b></Card.Title>
         <Card.Text className='cartatexto'>
@@ -15,7 +18,7 @@ const TextosContainer = () => {
       </Card.Body>
     </Card>
     <Card className='cartita' >
-      <Card.Img className="top" src="holder.js/100px160" />
+      <Card.Img className="top" src={cardimage2} />
       <Card.Body>
         <Card.Title className='cartatitulo'><b>Visión</b></Card.Title>
         <Card.Text className='cartatexto' >
@@ -24,7 +27,7 @@ const TextosContainer = () => {
       </Card.Body>
     </Card>
     <Card className='cartita' >
-      <Card.Img className="top" src="holder.js/100px160" />
+      <Card.Img className="top" src={cardimage3} />
       <Card.Body>
         <Card.Title className='cartatitulo'><b>Experiencia</b></Card.Title>
         <Card.Text className='cartatexto' >
@@ -33,7 +36,7 @@ const TextosContainer = () => {
       </Card.Body>
     </Card>
     <Card className='cartita' >
-      <Card.Img className="top" src="holder.js/100px160" />
+      <Card.Img className="top" src={cardimage4} />
       <Card.Body>
         <Card.Title className='cartatitulo'><b>Innovación</b></Card.Title>
         <Card.Text className='cartatexto' >

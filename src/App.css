@@ -4,21 +4,30 @@ body{
   font-size: 1rem;
   line-height: 1.4em;
   margin: 0px;
-      font-family:'Roboto Serif', sans-serif;
+  font-family: 'Bitter', serif;
 }
 
 /* Card Style ------------------------- */
 
+.top {
+  margin-left: 1rem;
+  width: 60px !important;
+}
+
+.contenedores {
+  border-style: hidden;
+}
+
 .cartita {
   margin-right: 2rem;
   margin-left: 2rem;
-  border: 0px;
- 
+  border: none !important;
 }
-
+ 
 .cartatitulo {
-  font-family:'Roboto Serif', sans-serif;
-  font-size: 10px;
+  margin-top: 1rem;
+  font-family: 'Bitter', serif;
+    font-size: 10px;
   color: #272727;
 }
 
@@ -36,10 +45,6 @@ body{
   padding-top: 2rem;
 }
 
-.top{
-  width: 20px;
-}
-
 /* NavBar Style */
 
 .espacio{
@@ -48,24 +53,25 @@ body{
 }
 
 .navbar-default {
-  font-family:'Roboto Serif', sans-serif;
+  font-family: 'Bitter', serif;
   color: #ffffff;
   height: 90px;
 }
 
 /* Carousel Style */
 
-.textazo {
-  size: 300px;
+.textoMineria {
+  color: #f5d181;
 }
 
 h1 {
-  font-family:'Roboto Serif', sans-serif;
+  font-size: 70px !important;
+  font-family: 'Bitter', serif;
 }
 
 p{
   font-family: 'Source Sans Pro', sans-serif;
-  width: 450px;
+  width: 430px;
   text-align: left;
   font-size: 16px;
 }

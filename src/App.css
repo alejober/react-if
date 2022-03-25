@@ -15,6 +15,7 @@ body{
 }
 
 .contenedores {
+  margin: 0.5rem 4.5rem;
   border-style: hidden;
 }
 
@@ -37,13 +38,19 @@ body{
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 15px;
   color: #5d5d5d;
-  width: 250px;
+  width: 185px;
 
 }
 
 .contenedores {
   padding-top: 2rem;
 }
+
+.links ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  }
 
 /* NavBar Style */
 
@@ -59,6 +66,12 @@ body{
 }
 
 /* Carousel Style */
+
+.carouselBloque {
+  display: flex;
+  align-items: center !important;
+
+}
 
 .textoMineria {
   color: #f5d181;
@@ -76,13 +89,19 @@ p{
   font-size: 16px;
 }
 
-.slider {
-  align-items: center;
+
+.alineacion {
+  display: flex;
+  flex-direction: column;
 }
 
 .carruseta {
   display: flex;
-  align-items: center;
+  align-items: center !important;
+}
+
+.button {
+  width: 2rem !important;
 }
 
 .carouselContainer{
@@ -93,7 +112,7 @@ p{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 360px;
+  height: 22.5rem;
 }
 
 .encabezado{

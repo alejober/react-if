@@ -4,6 +4,7 @@ import cardimage1 from './../img/card-img-1.png';
 import cardimage2 from './../img/card-img-2.png';
 import cardimage3 from './../img/card-img-3.png';
 import cardimage4 from './../img/card-img-4.png';
+import cardimage5 from './../img/card-img-5.png';
 
 const TextosContainer = () => {
   return (
@@ -41,6 +42,22 @@ const TextosContainer = () => {
         <Card.Title className='cartatitulo'><b>Innovación</b></Card.Title>
         <Card.Text className='cartatexto' >
         Nos actualizamos permanentemente a todas las novedades del mercado, como el holding y la operación de criptomonedas o la automatización de inversiones con trading algorítmico.
+        </Card.Text>
+      </Card.Body>
+    </Card>
+    <Card className='cartita' >
+      <Card.Img className="top" src={cardimage5} />
+      <Card.Body>
+        <Card.Title className='cartatitulo'><b>Redes</b></Card.Title>
+        <Card.Text className='cartatexto' >
+          <div className='links'>
+            <ul>
+              <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+              <li><a href="https://www.twitter.com/" target="_blank">Youtube</a></li>
+              <li><a href="https://www.youtube.com/" target="_blank">Twitter</a></li>
+              <li><a href="https://www.twitter.com/" target="_blank">Telegram</a></li>
+            </ul>      
+          </div>  
         </Card.Text>
       </Card.Body>
     </Card>

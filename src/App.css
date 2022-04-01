@@ -7,6 +7,40 @@ body{
   font-family: 'Bitter', serif;
 }
 
+
+.loading {
+  display: flex;
+  justify-content: center;
+}
+
+.loading--full-height {
+  align-items: center;
+  height: 100%;
+}
+
+.loading::after {
+  content: "";
+  width: 50px;
+  height: 50px;
+  border: 10px solid #dddddd;
+  border-top-color: #009579;
+  border-radius: 50%;
+  transform: rotate(0.16turn);
+  animation: loading 1s ease infinite;
+}
+
+@keyframes loading {
+  /* Safari support */
+  from {
+    transform: rotate(0turn);
+  }
+  
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+
 /* Card Style ------------------------- */
 
 .top {
@@ -54,6 +88,17 @@ body{
 
 /* NavBar Style */
 
+.botonAB:hover{filter: opacity(.5) !important;
+}
+
+.botonBDT{
+  background: none;
+}
+
+.botonBDT:hover{
+ background: #272727 !important;
+}
+
 .espacio{
   display: flex;
   justify-content: end;
@@ -67,6 +112,10 @@ body{
 
 /* Carousel Style */
 
+.imagenBDT {
+  width: 15rem;
+}
+
 .carouselBloque {
   display: flex;
   align-items: center !important;
@@ -74,11 +123,20 @@ body{
 }
 
 .textoMineria {
-  color: #f5d181;
+  color: #b6b6b6;
 }
 
-h1 {
+h1 {  
+  text-align: left;
   font-size: 70px !important;
+  font-family: 'Bitter', serif;
+}
+
+h2 {
+  display: flex;
+  text-align: left !important;
+  align-items: flex-start !important;
+  font-size: 50px !important;
   font-family: 'Bitter', serif;
 }
 
@@ -92,6 +150,7 @@ p{
 
 .alineacion {
   display: flex;
+  align-items: flex-start;
   flex-direction: column;
 }
 

@@ -15,10 +15,11 @@ const NavBarContainer = () => {
     <Container>
       <Navbar.Brand href="#home"><img width='200px' src={imageif} alt="Ingenieria Financiera"/></Navbar.Brand>
       <Nav className="espacio">
-        <Nav.Link href="#albot"><img width='30px' src={image5} alt="nav-albot"/></Nav.Link>
-        <Nav.Link href="#mineria"><img width='30px' src={image6} alt="nav-mineria"/></Nav.Link>
-        <Nav.Link href="#estrategia"><img width='30px' src={image7} alt="nav-mineria"/></Nav.Link>
-        <Nav.Link href="#trading"><img width='30px' src={image8} alt="nav-mineria"/></Nav.Link>
+        <Nav.Link href="http://52.23.241.52:27053/" target='_blank'><img className='botonAB' width='30px' src={image5} alt="nav-albot"/></Nav.Link>
+        <Nav.Link href="https://bonosdeltesoroestadosunidos.com/" target='_blank'><img className='botonAB' width='30px' src={image5} alt="nav-albot"/></Nav.Link>
+        <Nav.Link href="#mineria"><img className='botonAB' width='30px' src={image6} alt="nav-mineria"/></Nav.Link>
+        <Nav.Link href="#estrategia"><img className='botonAB' width='30px' src={image7} alt="nav-mineria"/></Nav.Link>
+        <Nav.Link href="#trading"><img className='botonAB' width='30px' src={image8} alt="nav-mineria"/></Nav.Link>
       </Nav>
     </Container>
   </Navbar>

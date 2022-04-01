@@ -41,21 +41,21 @@ const TextosContainer = () => {
       <Card.Body>
         <Card.Title className='cartatitulo'><b>Innovación</b></Card.Title>
         <Card.Text className='cartatexto' >
-        Nos actualizamos permanentemente a todas las novedades del mercado, como el holding y la operación de criptomonedas o la automatización de inversiones con trading algorítmico.
+        Nos actualizamos permanentemente a todas las novedades del mercado.
         </Card.Text>
       </Card.Body>
     </Card>
     <Card className='cartita' >
       <Card.Img className="top" src={cardimage5} />
       <Card.Body>
-        <Card.Title className='cartatitulo'><b>Redes</b></Card.Title>
+        <Card.Title className='cartatitulo'><b>Más de Ingenieria Financiera</b></Card.Title>
         <Card.Text className='cartatexto' >
           <div className='links'>
             <ul>
-              <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+              <li><a href="https://www.instagram.com/albot.if/" target="_blank">Instagram</a></li>
               <li><a href="https://www.twitter.com/" target="_blank">Youtube</a></li>
               <li><a href="https://www.youtube.com/" target="_blank">Twitter</a></li>
-              <li><a href="https://www.twitter.com/" target="_blank">Telegram</a></li>
+              <li><a href="https://www.linkedin.com/feed/" target="_blank">Linkedin</a></li>
             </ul>      
           </div>  
         </Card.Text>

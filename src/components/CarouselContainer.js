@@ -7,6 +7,7 @@ import image4 from './../img/banner-nada-estrategia2.png';
 import image5 from './../img/banner-nada-if.png';
 import image6 from './../img/banner-nada-bdt.png';
 import imageBDT from './../img/Logo-bdt-01.png';
+import soluciones from './../img/Logo-Soluciones.png';
 
 const CarouselContainer = () => {
 return (
@@ -19,7 +20,7 @@ return (
     />
     <Carousel.Caption>
     <div className='espaciado'>
-      <h2><b>Soluciones financieras a tu alcance</b></h2>
+      <img className='imagenSoluciones' src={soluciones} alt='soluciones'/>
       <div className="alineacion">
       <p>Somos un grupo financiero dedicado a la generación de diferentes soluciones de inversión mediante finanzas avanzadas, tanto para clientes retail como para grandes corporaciones.</p>
       </div>
@@ -58,7 +59,7 @@ return (
     <div className='espaciado'>
       <img className='imagenBDT' src={imageBDT} alt='imageBDT'/>
       <div className="alineacion">
-      <p>Somos un grupo financiero dedicado a la generación de diferentes soluciones de inversión mediante finanzas avanzadas, tanto para clientes retail como para grandes corporaciones.</p>
+      <p>Traemos a la región las estrategias de trading y cobertura más avanzadas, dinámicas y sofisticadas sobre el instrumento financiero mas seguro del mundo, benchmark de la economía mundial.</p>
       <a href='https://bonosdeltesoroestadosunidos.com/' target='_blank'><button className='button' type="button" class="btn btn-outline-light">Ir a <b>BdT.US</b></button></a>
       </div>
     </div>
@@ -108,7 +109,7 @@ return (
     <div className='espaciado'>
       <h1><b>Estrategia</b></h1>
       <div className="alineacion">
-      <p>Desarrollamos <b>estrategias a medida para cada cliente</b> en función de sus necesidades y capacidades particulares, orientadas a satisfacer no sólo las necesidades económicas sino también a complementar sus actividades principales y expertise específico.</p>
+      <p>Desarrollamos <b>estrategias a medida</b> en función de necesidades y capacidades particulares, orientadas a satisfacer necesidades económicas y a complementar sus actividades principales y expertise específico.</p>
       <button className='button' type="button" class="btn btn-outline-light">Descubri más sobre <b>Estrategia</b></button>
       </div>
     </div>

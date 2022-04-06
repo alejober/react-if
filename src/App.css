@@ -45,11 +45,11 @@ body{
 
 .top {
   margin-left: 1rem;
-  width: 60px !important;
+  width: 50px !important;
 }
 
 .contenedores {
-  margin: 0.5rem 4.5rem;
+  margin: 0rem 4rem;
   border-style: hidden;
 }
 
@@ -62,28 +62,30 @@ body{
 .cartatitulo {
   margin-top: 1rem;
   font-family: 'Bitter', serif;
-    font-size: 10px;
+  font-size: 1.1rem !important;
   color: #272727;
 }
 
 .cartatexto {
-  padding-top: 0.2rem;
+  padding-top: 0.1rem;
   margin: 0px;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 15px;
+  font-size: 0.8rem;
   color: #5d5d5d;
   width: 185px;
 
 }
 
 .contenedores {
-  padding-top: 2rem;
+  padding-top: 1.4rem;
 }
 
 .links ul{
   margin: 0;
   padding: 0;
   list-style: none;
+  display: flex;
+  justify-content: space-between;
   }
 
 /* NavBar Style */
@@ -115,6 +117,11 @@ body{
 .imagenBDT {
   width: 15rem;
 }
+
+.imagenSoluciones {
+  width: 25rem;
+}
+
 
 .carouselBloque {
   display: flex;

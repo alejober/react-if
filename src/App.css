@@ -63,7 +63,7 @@ body{
   margin-top: 1rem;
   font-family: 'Bitter', serif;
   font-size: 1.1rem !important;
-  color: #272727;
+  color: #02417B;
 }
 
 .cartatexto {
@@ -113,6 +113,14 @@ body{
 }
 
 /* Carousel Style */
+
+.colorprincipal{
+  color: #02417B;
+}
+
+.negritacuantif{
+  color: #e46327;
+}
 
 .imagenBDT {
   width: 15rem;

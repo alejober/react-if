@@ -57,11 +57,11 @@ const TextosContainer = () => {
         <Card.Text className='cartatexto' >
           <div className='links'>
             <ul>
-              <li><a href="https://www.instagram.com/albot.if/" target="_blank"><img src={iglogo} alt="Instagram" width="20" height="20"/></a></li>
+              <li><a href="https://www.instagram.com/cuantif/" target="_blank"><img src={iglogo} alt="Instagram" width="20" height="20"/></a></li>
               <li><a href="https://www.linkedin.com/company/ingenieria-financiera-if/about//" target="_blank"><img src={inlogo} alt="LinkedIn" width="20" height="20"/></a></li>
-              <li><a href="https://www.twitter.com/" target="_blank"><img src={twlogo} alt="Twitter" width="20" height="20"/></a></li>
-              <li><a href="https://www.youtube.com/" target="_blank"><img src={ytlogo} alt="Youtube" width="20" height="20"/></a></li>
-              <li><a href="https://www.facebook.com/" target="_blank"><img src={fblogo} alt="Facebook" width="20" height="20"/></a></li>
+              <li><a href="https://twitter.com/cuant_if" target="_blank"><img src={twlogo} alt="Twitter" width="20" height="20"/></a></li>
+              {/* <li><a href="https://www.youtube.com/" target="_blank"><img src={ytlogo} alt="Youtube" width="20" height="20"/></a></li> */}
+              <li><a href="https://www.facebook.com/CuantIf-104815112190553" target="_blank"><img src={fblogo} alt="Facebook" width="20" height="20"/></a></li>
             </ul>      
           </div>  
         </Card.Text>

@@ -3,7 +3,7 @@ import { Carousel } from 'react-bootstrap';
 import image1 from './../img/banner-nada-albot.png';
 import image2 from './../img/banner-nada-mineria.png';
 import image3 from './../img/banner-nada-trading2.png';
-import image4 from './../img/banner-nada-estrategia2.png';
+import image4 from './../img/banner-nada-estrategia.png';
 import image5 from './../img/banner-nada-if.png';
 import image6 from './../img/banner-nada-bdt.png';
 import imageBDT from './../img/Logo-bdt-01.png';
@@ -11,7 +11,7 @@ import soluciones from './../img/Logo-Soluciones.png';
 
 const CarouselContainer = () => {
 return (
-    <Carousel className='carruseta'>
+    <Carousel className='caption-va'>
   <Carousel.Item class='carouselBloque' interval={5000}>
     <img
       className="d-block w-100"
@@ -42,7 +42,7 @@ return (
         <div className="alineacion">
           <p>Desarrollamos un software de <b className="negritacuantif">algo-trading automatizado</b> simple e intuitivo, libre de la necesidad de saber programar y flexible a cualquier estrategia de inversión.</p>
           <a href='http://52.23.241.52:27053/' target='_blank'>
-            <button className='button' type="button" class="btn btn-outline-light">Descubri más sobre <b>Al.Bot</b></button>
+            <button className='button' type="button" class="btn btn-outline-light">Descubri más sobre <b>Quantif</b></button>
           </a>
         </div>
       </div>
@@ -59,7 +59,7 @@ return (
     <div className='espaciado'>
       <img className='imagenBDT' src={imageBDT} alt='imageBDT'/>
       <div className="alineacion">
-      <p>Traemos a la región las estrategias de trading y cobertura más avanzadas, dinámicas y sofisticadas sobre el instrumento financiero mas seguro del mundo, benchmark de la economía mundial.</p>
+      <p>Traemos a la región <b>las estrategias de trading y cobertura más avanzadas</b>, dinámicas y sofisticadas sobre el instrumento financiero mas seguro del mundo, benchmark de la economía mundial.</p>
       <a href='https://bonosdeltesoroestadosunidos.com/' target='_blank'><button className='button' type="button" class="btn btn-outline-light">Ir a <b>BdT.US</b></button></a>
       </div>
     </div>

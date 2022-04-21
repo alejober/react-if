@@ -139,6 +139,9 @@ body{
   width: 25rem;
 }
 
+.isologo {
+  width: 20rem;
+}
 
 .carouselBloque {
   display: flex;

@@ -7,7 +7,6 @@ import image6 from './../img/nav-mi.png';
 import image7 from './../img/nav-tr.png';
 import image8 from'./../img/nav-es.png';
 import image9 from'./../img/nav-BT.png';
-
 import imageif from './../img/if-isologo.png';
 
 const NavBarContainer = () => {

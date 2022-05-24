@@ -1,11 +1,11 @@
 import react from 'react';
 import { Carousel } from 'react-bootstrap';
-import image1 from './../img/banner-nada-albot.png';
-import image2 from './../img/banner-nada-mineria.png';
-import image3 from './../img/banner-nada-trading2.png';
-import image4 from './../img/banner-nada-estrategia.png';
-import image5 from './../img/banner-nada-if.png';
-import image6 from './../img/banner-nada-bdt.png';
+import image1 from './../img/banner-nada-albot.jpg';
+import image2 from './../img/banner-mineria.jpg';
+import image3 from './../img/banner-senales.jpg';
+import image4 from './../img/banner-estrategia.jpg';
+import image5 from './../img/banner-nada-if.jpg';
+import image6 from './../img/banner-bdt.jpg';
 import imageBDT from './../img/Logo-bdt-01.png';
 import soluciones from './../img/Logo-Soluciones.png';
 import isologo from './../img/isologo.png';
@@ -39,7 +39,7 @@ return (
       <div className='espaciado'>
       <img className='isologo' src={isologo} alt='cuantif'/>
         <div className="alineacion">
-          <p>Desarrollamos un software de <b className="negritacuantif">algo-trading automatizado</b> simple e intuitivo, libre de la necesidad de saber programar y flexible a cualquier estrategia de inversión.</p>
+          <p>Desarrollamos un software de algo-trading automatizado <b>creativo, intuitivo y automático</b>, libre de la necesidad de saber programar y flexible a cualquier estrategia de inversión.</p>
           <a href='http://www.cuantif.com/' target='_blank'>
             <button className='button' type="button" class="btn btn-outline-light">Descubri más sobre <b>Cuantif</b></button>
           </a>
@@ -58,8 +58,7 @@ return (
     <div className='espaciado'>
       <h1><b>Señales</b></h1>
       <div className="alineacion">
-      <p>Como resultado de nuestras investigaciones financieras y desarrollos tecnológicos, estamos <b>constantemente tomando posiciones en los mercados de trading de plataforma</b>.</p>
-      {/* <button className='button' type="button" class="btn btn-outline-light">Descubri más sobre <b>Señales</b></button> */}
+      <p>Ofrecemos un servicio de <b>notificaciones de señales de compra y venta de activos</b> personalizado para cualquier instrumento financiero del mundo que opere en los mercados bursátiles o extrabursátiles.</p>
     </div>
     </div>
     </Carousel.Caption>
@@ -96,6 +95,23 @@ return (
     </div>
     </Carousel.Caption>
   </Carousel.Item>
+
+  <Carousel.Item class='carouselBloque' interval={5000}>
+    <img
+      className="d-block w-100"
+      src={image3}
+      alt="Cobertura"
+    />
+    <Carousel.Caption>
+    <div className='espaciado'>
+      <h1><b>Cobertura</b></h1>
+      <div className="alineacion">
+      <p>Utilizando derivados financieros, proveemos estrategias, básicas o sofisticadas, personalizadas en base a la necesidad de cada usuario, con el objetivo de proteger la inversion ante el riesgo de operear en el mercado.</p>
+    </div>
+    </div>
+    </Carousel.Caption>
+  </Carousel.Item>
+  
   <Carousel.Item class='carouselBloque' interval={5000}>
     <div className='slider'>
     <img

@@ -8,7 +8,7 @@ import cardimage5 from './../img/card-img-5.png';
 import iglogo from './../img/instagram.svg'
 import inlogo from './../img/linkedin.svg'
 import twlogo from './../img/twitter.svg'
-import ytlogo from './../img/youtube.svg'
+import wplogo from './../img/whatsapp.svg'
 import fblogo from './../img/facebook.svg'
 
 const TextosContainer = () => {
@@ -57,6 +57,7 @@ const TextosContainer = () => {
         <Card.Text className='cartatexto' >
           <div className='links'>
             <ul>
+              <li><a href="https://wa.me/message/AH6IRP2MQWKPG1" target="_blank"><img src={wplogo} alt="WhatsApp" width="20" height="20"/></a></li>
               <li><a href="https://www.instagram.com/cuantif/" target="_blank"><img src={iglogo} alt="Instagram" width="20" height="20"/></a></li>
               <li><a href="https://www.linkedin.com/company/ingenieria-financiera-if/about//" target="_blank"><img src={inlogo} alt="LinkedIn" width="20" height="20"/></a></li>
               <li><a href="https://twitter.com/cuant_if" target="_blank"><img src={twlogo} alt="Twitter" width="20" height="20"/></a></li>

@@ -73,7 +73,7 @@ return (
     <div className='espaciado'>
       <img className='imagenBDT' src={imageBDT} alt='imageBDT'/>
       <div className="alineacion">
-      <p>Traemos a la región <b>las estrategias de trading y cobertura más avanzadas</b>, dinámicas y sofisticadas sobre el instrumento financiero mas seguro del mundo, benchmark de la economía mundial.</p>
+      <p>Traemos a la región <b>las estrategias de trading y cobertura más avanzadas</b>, dinámicas y sofisticadas sobre el instrumento financiero más seguro del mundo, benchmark de la economía mundial.</p>
       <a href='https://bonosdeltesoroestadosunidos.com/' target='_blank'><button className='button' type="button" class="btn btn-outline-light">Ir a <b>BdT.US</b></button></a>
       </div>
     </div>
@@ -106,7 +106,7 @@ return (
     <div className='espaciado'>
       <h1><b>Cobertura</b></h1>
       <div className="alineacion">
-      <p>Utilizando derivados financieros, proveemos estrategias, básicas o sofisticadas, personalizadas en base a la necesidad de cada usuario, con el objetivo de proteger la inversion ante el riesgo de operar en el mercado.</p>
+      <p>Utilizando derivados financieros, proveemos estrategias, básicas o sofisticadas, personalizadas en base a la necesidad de cada usuario, con el objetivo de proteger la inversión ante el riesgo de operar en el mercado.</p>
     </div>
     </div>
     </Carousel.Caption>

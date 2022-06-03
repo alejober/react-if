@@ -89,7 +89,7 @@ return (
     <div className='espaciado'>
       <h1><b>Estrategia</b></h1>
       <div className="alineacion">
-      <p>Desarrollamos <b>estrategias a medida</b> en función de necesidades y capacidades particulares, orientadas a satisfacer necesidades económicas y a complementar sus actividades principales y expertise específico.</p>
+      <p>Desarrollamos <b>estrategias a medida</b> orientadas a satisfacer necesidades económicas y a complementar sus actividades principales y expertise específico.</p>
      {/*  <button className='button' type="button" class="btn btn-outline-light">Descubri más sobre <b>Estrategia</b></button> */}
       </div>
     </div>
@@ -106,7 +106,7 @@ return (
     <div className='espaciado'>
       <h1><b>Cobertura</b></h1>
       <div className="alineacion">
-      <p>Utilizando derivados financieros, proveemos estrategias, básicas o sofisticadas, personalizadas en base a la necesidad de cada usuario, con el objetivo de proteger la inversion ante el riesgo de operear en el mercado.</p>
+      <p>Utilizando derivados financieros, proveemos estrategias, básicas o sofisticadas, personalizadas en base a la necesidad de cada usuario, con el objetivo de proteger la inversion ante el riesgo de operar en el mercado.</p>
     </div>
     </div>
     </Carousel.Caption>

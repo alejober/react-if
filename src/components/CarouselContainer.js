@@ -40,7 +40,7 @@ return (
       <img className='isologo' src={isologo} alt='cuantif'/>
         <div className="alineacion">
           <p>Desarrollamos un software de algo-trading automatizado <b>creativo, intuitivo y automático</b>, libre de la necesidad de saber programar y flexible a cualquier estrategia de inversión.</p>
-          <a href='http://www.cuantif.com/' target='_blank'>
+          <a href='http://cuantif.com/' target='_blank'>
             <button className='button' type="button" class="btn btn-outline-light">Descubri más sobre <b>Cuantif</b></button>
           </a>
         </div>
@@ -59,6 +59,9 @@ return (
       <h1><b>Señales</b></h1>
       <div className="alineacion">
       <p>Ofrecemos un servicio de <b>notificaciones de señales de compra y venta de activos</b> personalizado para cualquier instrumento financiero del mundo que opere en los mercados bursátiles o extrabursátiles.</p>
+      <a href='http://cuantif.com/' target='_blank'>
+            <button className='button' type="button" class="btn btn-outline-light">Más sobre <b>Señales</b></button>
+      </a>
     </div>
     </div>
     </Carousel.Caption>
@@ -90,7 +93,9 @@ return (
       <h1><b>Estrategia</b></h1>
       <div className="alineacion">
       <p>Desarrollamos <b>estrategias a medida</b> orientadas a satisfacer necesidades económicas y a complementar sus actividades principales y expertise específico.</p>
-     {/*  <button className='button' type="button" class="btn btn-outline-light">Descubri más sobre <b>Estrategia</b></button> */}
+      <a href='http://cuantif.com/' target='_blank'>
+            <button className='button' type="button" class="btn btn-outline-light">Más sobre <b>Estrategia</b></button>
+      </a>
       </div>
     </div>
     </Carousel.Caption>
@@ -107,6 +112,9 @@ return (
       <h1><b>Cobertura</b></h1>
       <div className="alineacion">
       <p>Utilizando derivados financieros, proveemos estrategias, básicas o sofisticadas, personalizadas en base a la necesidad de cada usuario, con el objetivo de proteger la inversión ante el riesgo de operar en el mercado.</p>
+      <a href='http://cuantif.com/' target='_blank'>
+            <button className='button' type="button" class="btn btn-outline-light">Más sobre <b>Cobertura</b></button>
+      </a>
     </div>
     </div>
     </Carousel.Caption>

@@ -16,7 +16,7 @@ const NavBarContainer = () => {
     <Container>
       <Navbar.Brand href="#home"><img width='200px' src={imageif} alt="Ingenieria Financiera"/></Navbar.Brand>
       <Nav className="espacio">
-        <Nav.Link href="http://www.cuantif.com" target='_blank'><img className='botonAB' width='30px' src={image5} alt="nav-albot"/></Nav.Link>
+        <Nav.Link href="http://cuantif.com" target='_blank'><img className='botonAB' width='30px' src={image5} alt="nav-albot"/></Nav.Link>
         <Nav.Link href="#estrategia"><img className='botonAB' width='30px' src={image7} alt="nav-mineria"/></Nav.Link>
         <Nav.Link href="https://bonosdeltesoroestadosunidos.com/" target='_blank'><img className='botonAB' width='30px' src={image9} alt="nav-albot"/></Nav.Link>
         <Nav.Link href="#trading"><img className='botonAB' width='30px' src={image8} alt="nav-mineria"/></Nav.Link>

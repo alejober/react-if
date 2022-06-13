@@ -88,9 +88,18 @@ body{
   justify-content: space-between;
   }
 
+.logowp:hover {
+  fill: #016bab;
+}
+
 /* NavBar Style */
 
-.botonAB:hover{filter: opacity(.5) !important;
+.botonAB {
+  transition: 0.5s;
+}
+
+.botonAB:hover{
+  transform: translateY(-5px);
 }
 
 .botonBDT{
@@ -204,4 +213,93 @@ p{
 
 .encabezado{
   padding: 1rem 3rem;
+}
+
+
+/* Forms */
+
+.overlay {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(5px);
+	transition: opacity 500ms;
+	visibility: hidden;
+	opacity: 0;
+}
+.overlay:target {
+	visibility: visible;
+	opacity: 1;
+}
+.wrapper {
+	margin: 100px auto;
+	padding: 20px;
+	background: #fff;
+	border-radius: 10px;
+	width: 30%;
+	position: relative;
+	transition: all 5s ease-in-out;
+}
+.wrapper h3 {
+	margin-top: 4rem;
+}
+.wrapper .close {
+	position: absolute;
+	top: 20px;
+	right: 30px;
+	transition: all 200ms;
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #333;
+}
+.wrapper .close:hover {
+	color: #016bab;
+}
+.wrapper .content {
+	max-height: 30%;
+	overflow: auto;
+}
+
+
+/*formulario*/
+
+.formulario {
+	border-radius: 0px;
+	background-color: #fff;
+	padding: 20px 0;
+}
+form label {
+	font-weight: 700;
+}
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 0.5rem;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 0.6rem;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+input[type="submit"] {
+  margin-top: 2rem;
+	background-color: #016bab;
+	color: #fff;
+	padding: 15px 50px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+  font-weight: 700;
+	font-size: 15px;
+}
+
+h3 {
+  font-family: 'Bitter', serif;
+  font-size: 5rem;
+  font-weight: 700;
+  color: #016bab;
 }

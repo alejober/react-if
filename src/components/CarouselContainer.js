@@ -60,7 +60,7 @@ return (
       <div className="alineacion">
       <p>Ofrecemos un servicio de <b>notificaciones de señales de compra y venta de activos</b> personalizado para cualquier instrumento financiero del mundo que opere en los mercados bursátiles o extrabursátiles.</p>
       <a href='#divOne'>
-            <button className='button' type="button" class="btn btn-outline-light">Más sobre <b>Señales</b></button>
+            <button className='button' type="button" class="btn btn-outline-light"><b>Contactanos</b></button>
       </a>
     </div>
     </div>
@@ -94,7 +94,7 @@ return (
       <div className="alineacion">
         <p>Desarrollamos <b>estrategias a medida</b> orientadas a satisfacer necesidades económicas y a complementar sus actividades principales y expertise específico.</p>
         <a href='#divOne'>
-              <button className='button' type="button" class="btn btn-outline-light">Más sobre <b>Estrategia</b></button>
+              <button className='button' type="button" class="btn btn-outline-light">Contactanos</button>
         </a>
       </div>
     </div>
@@ -113,7 +113,7 @@ return (
       <div className="alineacion">
       <p>Utilizando derivados financieros, proveemos estrategias, básicas o sofisticadas, personalizadas en base a la necesidad de cada usuario, con el objetivo de proteger la inversión ante el riesgo de operar en el mercado.</p>
       <a href='#divOne'>
-            <button className='button' type="button" class="btn btn-outline-light">Más sobre <b>Cobertura</b></button>
+            <button className='button' type="button" class="btn btn-outline-light">Contactanos</button>
       </a>
     </div>
     </div>

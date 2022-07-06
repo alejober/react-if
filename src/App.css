@@ -124,11 +124,11 @@ body{
 /* Carousel Style */
 
 .carousel-caption {
-    top: 0;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 100%;
+  top: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
 
 }
 
@@ -154,7 +154,7 @@ body{
 
 .carouselBloque {
   display: flex;
-  align-items: center !important;
+  align-items: center ;
 
 }
 
@@ -197,9 +197,6 @@ p{
   flex-direction: column;
 } */
 
-.button {
-  width: 2rem !important;
-}
 
 .carouselContainer{
   justify-content: space-between;
@@ -302,4 +299,102 @@ h3 {
   font-size: 5rem;
   font-weight: 700;
   color: #016bab;
+}
+
+@media (max-width: 500px) {
+
+
+.cartita{
+  top: 65px;
+}
+
+/* NAVBAR RESPONSIVE */
+
+.navbar-default{
+  display: flex;
+  height: 65px;
+  background-color: #02417b;
+  width: fit-content;
+  flex-direction: column !important;
+}
+
+
+.espacio{
+ visibility: hidden;
+}
+
+/* CAROUSEL */
+
+.carouselBloque{
+  height: 300px;
+}
+
+.espaciado{
+  height: 300px;
+  display: flex;
+  /*lign-items: flex-start; */
+  flex-direction: column;
+}
+
+.caption-va{
+  top: 65px;
+  height: 300px;
+  background: #02417B;
+}
+
+
+.carousel-caption {
+  top: 65PX;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+
+}
+
+
+
+p{
+  width: 230px;
+  text-align: left;
+  font-size: 7px;
+}
+
+.imagenSoluciones{
+  width: 8rem;
+  }
+
+.imagenBDT{
+  width: 6rem;
+}
+
+.isologo{
+  width: 6rem;
+}
+
+h1{
+  font-size: 20px;
+}
+
+h2{
+  font-size: 20px;
+}
+
+.alineacion{
+
+margin-left: 0px;
+}
+
+.button {
+  width: 0.5rem;
+}
+  
+/* cartas */
+
+.contenedores {
+  margin: 0rem 0rem;
+  border-style: hidden;
+}
+
+
 }

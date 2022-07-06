@@ -120,7 +120,7 @@ return (
     </Carousel.Caption>
   </Carousel.Item>
   
-  <Carousel.Item class='carouselBloque' interval={5000}>
+{/*   <Carousel.Item class='carouselBloque' interval={5000}>
     <div className='slider'>
     <img
       className="d-block w-100"
@@ -137,7 +137,7 @@ return (
         </div>
     </Carousel.Caption>
     </div>
-  </Carousel.Item>
+  </Carousel.Item> */}
 </Carousel>
 )
 }

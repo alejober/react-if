@@ -12,7 +12,7 @@ import imageif from './../img/if-isologo.png';
 const NavBarContainer = () => {
   return (
 <>
-  <Navbar className='navbar-default fixed-top' bg='transparent'>
+  <Navbar className='navbar-default fixed-top'>
     <Container>
       <Navbar.Brand href="#home"><img width='200px' src={imageif} alt="Ingenieria Financiera"/></Navbar.Brand>
       <Nav className="espacio">

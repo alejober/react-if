@@ -2,7 +2,7 @@
 <html lang="es">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="src\img\iconoIF.svg" />
+    <link rel="shortcut icon" href="iconoIF.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
@@ -30,14 +30,15 @@
         <div class="content">
           <div class="formulario">
             <form>
-              <label>Nombre y Apellido</label>
-              <input placeholder="Ingrese sus datos." type="text">
-              <label>Correo Electrónico</label>
-              <input placeholder="Ingrese su correo." type="text">
-              <label>Número de contacto</label>
-              <input placeholder="Ingrese su teléfono." type="text">
-              <label>¿Sobre qué producto deseas saber más?</label>
-              <select name="Producto" id="producto">
+              <label for="nombre">Nombre y Apellido</label>
+              <input placeholder="Ingrese sus datos." type="text" required>
+              <label for="correo">Correo Electrónico</label>
+              <input placeholder="Ingrese su correo." type="text" required>
+              <label for="contacto">Número de contacto</label>
+              <input placeholder="Ingrese su teléfono." type="text" required>
+              <label for="producto">¿Sobre qué producto deseas saber más?</label>
+              <select name="Producto" id="producto" required>
+                <option value="0s">Seleccione una opción</option>
                 <option value="1s">Señales</option>
                 <option value="2e">Estrategia</option>
                 <option value="3c">Cobertura</option>

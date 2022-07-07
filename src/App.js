@@ -28,6 +28,7 @@ function App() {
         
       <><NavBarContainer /><CarouselContainer /><TextosContainer /></>
 
+
       )
       }
     </div>

@@ -58,7 +58,7 @@ body{
   background-size: 0% 3px, 0 3px;
   background-position: 100% 100%, 0 100%;
   background-repeat: no-repeat;
-  transition: background-size 400ms;
+  transition: background-size 1000ms;
 }
 
 .cartatitulo:hover {
@@ -395,8 +395,8 @@ p{
 }
 
 .isologo{
-  width: 16rem;
-  padding-bottom: 2rem;
+  width: 26rem;
+  padding-bottom: 1rem;
 
 }
 

@@ -152,8 +152,7 @@ background-size: 0 3px, 100% 3px;
 
 .imagenBDT {
   width: 28rem;
-  padding-right: 0rem;
-  margin-right: 0rem;
+  margin-right: 8rem;
 }
 
 .imagenSoluciones {
@@ -163,7 +162,7 @@ background-size: 0 3px, 100% 3px;
 
 .isologo {
   width: 32rem;
-  padding-right: 8rem;
+  margin-right: 8rem;
 }
 
 .carouselBloque {
